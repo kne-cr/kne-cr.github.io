@@ -9,7 +9,10 @@
     "webpack": "^4.28.3",
     "webpack-cli": "^3.2.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/three": "^0.93.19",
+    "three": "^0.100.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --watch"
