@@ -1,0 +1,7 @@
+web:
+  build: .
+  volumes:
+    - "./:/work"
+  working_dir: "/work"
+  command: "npm run build"
+
